@@ -17,7 +17,7 @@ describe('Authorization API', () =>{
             .then(({ body }) => token = body.token);
     });
 
-    it.skip('signup', () =>{
+    it.only('signup', () =>{
         assert.ok(token);
     });
 
